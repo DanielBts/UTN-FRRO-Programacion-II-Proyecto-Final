@@ -1,0 +1,48 @@
+.marca {
+    width: 300px;
+    height: 90px ;
+    margin: 50px 10px 25px 30px;
+    padding: 5px;
+    margin-left: 40%;
+}
+
+
+
+.redes {
+     width: auto;
+     height: auto;
+
+}
+
+.parrafo {
+
+    border: solid 1px black;
+    text-align: center;
+    border-color: blue;
+    border-radius: 7px;
+    width: 1500px;
+    margin: 50px 200px 20px 100px;
+}
+
+.f ,.insta,.tel,.Tuit,.you {
+   
+   width: 2%; 
+}
+
+.español {
+    width: 8%;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 5px;
+}
+
+footer {
+    padding: 100px;
+    text-align: center;
+}
+
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50%;
+    color: Black;
+}
