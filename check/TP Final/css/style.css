@@ -20,7 +20,7 @@
     text-align: center;
     border-color: blue;
     border-radius: 7px;
-    width: 1500px;
+    width: 1300px;
     margin: 50px 200px 20px 100px;
 }
 
@@ -30,10 +30,16 @@
 }
 
 .español {
-    width: 8%;
+    width: 6%;
     float: right;
-    margin-right: 200px;
-    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;    
+    
+}
+.esp {
+    width: 100px;
+    border-bottom: 1px;
 }
 
 footer {
@@ -45,4 +51,39 @@ h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50%;
     color: Black;
+}
+
+.navegador {
+  justify-content: space-between;
+   align-items: center;
+   display: flex;
+   text-align: start;
+   width: 90%;
+   margin-left: 60px;
+   
+}
+
+.nav1, .nav2, .nav3 {
+    
+    display: grid;
+}
+
+.nav1 {
+    border: none;
+    padding: 10px;
+    margin-left: 100px;
+
+}
+
+.nav2 {
+    border: none;
+    padding: 10px;
+    margin-left: 100px;
+
+}
+.nav3 {
+    border: none;
+    padding: 10px;
+    margin-left: 100px;
+
 }
