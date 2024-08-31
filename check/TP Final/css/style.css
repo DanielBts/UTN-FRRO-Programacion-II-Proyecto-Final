@@ -20,7 +20,7 @@
     text-align: center;
     border-color: blue;
     border-radius: 7px;
-    width: 1500px;
+    width: 1300px;
     margin: 50px 200px 20px 100px;
 }
 
@@ -45,4 +45,19 @@ h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50%;
     color: Black;
+}
+
+.navegador {
+  justify-content: space-between;
+   align-items: center;
+   display: flex;
+   text-align: start;
+   width: 90%;
+   margin-left: 60px;
+   
+}
+
+.nav1, .nav2, .nav3 {
+    
+    display: grid;
 }
