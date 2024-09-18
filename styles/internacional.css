@@ -21,7 +21,7 @@ background-color: aqua;
     width: 800px;
     height: auto;
     display: block;
-    margin-left: 200px;
+    margin-left: auto;
     margin-right: auto;
 }
 .internacional{
@@ -43,6 +43,8 @@ background-color: aqua;
     font-size: 50px;
     letter-spacing: -2px;
     line-height: 50px;
+    color: black;
+    font-weight: bolder;
 }
 .pretext{
     letter-spacing: 0px;
@@ -53,6 +55,7 @@ background-color: aqua;
 .submarinoimg{
     width: 800px;
     height: auto;
+    margin-top: -30px;
 }
 .bold-first-word {
     font-weight: bold;
@@ -61,37 +64,59 @@ h3{
     font-weight: lighter;
     font-size: 16px;
 }
+.H3hallazgo{
+    font-size: 16px;
+}
+.hrFoto{
+    margin-top: -10px;
+    color: rgb(5, 30, 245);
+}
 
 /*------------ AUTOR NOTA -----------*/
 
-.autor{
-    margin-left: 200px;
+.divautor{
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
 }
 .autordenota{
     width: 100px;
     height: auto;
     border-radius: 100px;
 }
-.nombreautor{
+.divautordatos{
+    margin-left: 145px;
     color: black;
+}
+.nombreautor{
     font-size: 17px;
-    margin-left: 160px;
     margin-top: -90px;
-    margin-bottom: 5px;
     font-weight: 800;
 }
 .origenautor{
-    color: black;
     font-size: 13px;
-    margin-left: 160px;
+}
+i{
+    color: rgb(5, 30, 245);
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.hrNombreAutor{
+    margin-top: 0px;
+    width: 180px;
+    color: rgb(5, 30, 245);
 }
 
 /*------------ PARRAFO -----------*/
 
 .divtexto{
-    width: 650px;
+    width: 670px;
     height: auto;
-    margin-left: 360px;
+    margin-top: -50px;
+    margin-left: 690px;
     font-weight: lighter;
     font-size: 18px;
     word-break: normal;
@@ -108,30 +133,36 @@ p{
     color: rgb(5, 30, 245);
     font-weight: bolder;
 }
-button{
+.botonSuscribite{
     border-radius: 10px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 8px;
     font-size: 10px;
     background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
-    margin-left: 570px;
-    margin-top: -25px;
-}
-.hrsuscribite{
-    background-color: rgb(5, 30, 245);
-    width: 150px;
-    height: 5px;
+    margin-left: 590px;
+    margin-top: -30px;
 }
 .divsuscribete{
-    margin-top: -10px;
+    margin-top: -20px;
 }
 .uneteatecnotab{
     font-size: 15px;
 }
 
+
+/*------------ SEGUNDA PARTE -----------*/
+
+.title2{
+    font-weight: bolder;
+}
+.finentrevista{
+    color: black;
+    font-size: 20px;
+}
 /*------------ PIE NOTA -----------*/
 
 .comentarios{
@@ -145,10 +176,11 @@ button{
     font-size: 14px;
     font-weight: bolder;
 }
-h4{
+.h4firma{
     font-size: 15px;
     font-weight: bold;
     margin-top: -50px;
+    margin-bottom: -20px;
 }
 .autordenotaPIE{
     width: 70px;
@@ -172,9 +204,9 @@ h4{
     font-size: 15px;
     line-height: 20px;
     margin-left: 90px;
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
-.hrfirmaautor{
-    background-color: rgb(5, 30, 245);
-    width: 100px;
-    height: 5px;
+.pieNota{
+    margin-top: -20px;
 }
