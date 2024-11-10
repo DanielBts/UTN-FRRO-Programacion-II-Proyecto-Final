@@ -1,0 +1,148 @@
+* {
+    font-family:"Univers LT Std", sans-serif, bold; 
+}
+#editor {
+
+    display: flex;
+    border: solid 1px blue;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 1px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#edit {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+}
+
+#Marca img {
+
+    width: 350px;
+    height: 100px;
+}
+
+.col-6{
+
+  display: flex;
+
+}
+
+.cold-4 {
+    display: grid;
+}
+
+#dos {
+
+    display: flex;
+}
+
+
+#mini {
+    margin-top: 15px;
+    display: grid;
+}
+
+#pub {
+    margin-top: 15px;
+    display: grid;
+    color: blue;
+}
+
+#area {
+
+  /*  display: grid; */
+    justify-content: space-between;
+}
+
+#area a {
+
+    display: grid;
+    text-decoration: none;
+    color: black;
+
+}
+
+#Grupo a {
+    
+    display: grid;
+    text-decoration: none;
+    color: black;
+
+}
+
+#Publicidad a {
+
+    display: grid;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+
+}
+
+#area a:hover {
+
+    color: blue;
+    text-decoration: underline;
+}
+
+#Grupo a:hover {
+
+    color: blue;
+    text-decoration: underline;
+}
+
+#Publicidad a:hover {
+
+    color: blue;
+    text-decoration: underline;
+}
+h6{
+    color:black
+}
+#area,#Grupo,#Publicidad h5 {
+    margin-top: 15px;
+    color: blue;
+
+}
+
+.pie {
+    
+    margin-top: 50px;
+    text-align: center;
+}
+
+#marcamini {
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+#minibutt {
+
+    margin-bottom: auto;
+    /* margin: auto;*/
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    text-align: left;
+
+
+}
+
+#contact {
+
+    width: 15%;
+    height: 15%;
+    display: flex;
+}
+
+#Superior {
+    margin-top: 30px;
+    display:flex;
+    
+}
